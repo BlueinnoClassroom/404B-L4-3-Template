@@ -35,7 +35,7 @@ you should see similar response like:
 }
 ```
 
-We can also specify the type of activity in the link: <http://www.boredapi.com/api/activity?type=recreational>.
+We can also specify the type of activity in the link: <http://www.boredapi.com/api/activity?type=recreational> or <https://bored.api.lewagon.com/api/activity?type=recreational>.
 
 Should give you response of type `recreational` only:
 
