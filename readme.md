@@ -20,7 +20,7 @@ The output will be shown in the `Terminal` tab at the bottom of the editor.
 
 We will be using a free web service (API) that provides random activity suggestion for bored people.
 
-For example, visiting this link: <http://www.boredapi.com/api/activity/>,
+For example, visiting this link: <https://bored.api.lewagon.com/api/activity>,
 you should see similar response like:
 
 ```json
@@ -35,7 +35,7 @@ you should see similar response like:
 }
 ```
 
-We can also specify the type of activity in the link: <http://www.boredapi.com/api/activity?type=recreational> or <https://bored.api.lewagon.com/api/activity?type=recreational>.
+We can also specify the type of activity in the link: <https://bored.api.lewagon.com/api/activity?type=recreational>.
 
 Should give you response of type `recreational` only:
 
@@ -51,7 +51,7 @@ Should give you response of type `recreational` only:
 }
 ```
 
-You may explore more in the documentation: <https://www.boredapi.com/documentation>.
+You may explore more in the documentation: <https://bored.api.lewagon.com/documentation>.
 
 As you explored this API, you should have noticed the response format is a lot like the dictionary format in Python. This is a very common format used in data transfer between web/app and server.
 
