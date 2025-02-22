@@ -6,9 +6,9 @@ from pprint import pprint
 # You don't need to understand how this function works for now
 def get_activity(preference=None) -> dict:
     if preference is None:
-        url = "http://www.boredapi.com/api/activity/"
+        url = "https://bored.api.lewagon.com/api/activity/"
     else:
-        url = f"http://www.boredapi.com/api/activity?type={preference}"
+        url = f"https://bored.api.lewagon.com/api/activity?type={preference}"
 
     response = requests.get(url)
     return response.json()
